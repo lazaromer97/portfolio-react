@@ -35,41 +35,12 @@ const workExperiences = {
   display: true,
   experiences: [
     {
-      role: "Back End Developer",
-      company: "Lithium Software",
-      companyLocation: "Montevideo, Montevideo, Uruguay",
-      companyLogo: LithiumSoftwareLogo,
-      date: "Feb 2021 - Present (3 mos)",
-      description:
-        "Lithium Software is a development studio that helps technology companies and startups offering an extra-hand for their dev team with highly-skilled, trusted, nearshore developers and designers. My work focused on the maintenance and implementation of new features.",
-      technologies: [
-        "JavaScript (ES6+)",
-        "NodeJS",
-        "Express",
-        "Knex.js",
-        "Swagger",
-        "Jest",
-        "Mocha",
-        "PostgreSQL",
-        "Git",
-        "Azure DevOps",
-        "Jira",
-      ],
-      keyExperiences: [
-        "Teamwork",
-        "Advanced Git Workflows",
-        "RESTful API",
-        "Documentation",
-        "Testing",
-        "SCRUM",
-      ],
-    },
-    {
       role: "Full Stack Developer",
       company: "Interamplify",
       companyLocation: "Alhama de Murcia, Murcia, Spain",
       companyLogo: InteramplifyLogo,
-      date: "Jan 2021 - Present (4 mos)",
+      startDate: "Jan 2021",
+      endDate: "Present",
       description:
         "Interamplify is an internet company that specializes in digital marketing, SEO, and social media marketing. My work focused on the maintenance and implementation of new features.",
       technologies: [
@@ -97,7 +68,8 @@ const workExperiences = {
       company: "Solution Développeur",
       companyLocation: "Paris, Île-de-France, France",
       companyLogo: SolutionDeveloppeurLogo,
-      date: "Nov 2020 - Present (6 mos)",
+      startDate: "Nov 2020",
+      endDate: "Present",
       description:
         "Solution Développeur is a company specialized in new technologies that put a team of experts to work according to the business needs of its clients, offering technical assistance and advice on all aspects of their projects. My work focused on the maintenance and implementation of new features.",
       technologies: [
@@ -123,10 +95,42 @@ const workExperiences = {
     },
     {
       role: "Back End Developer",
+      company: "Lithium Software",
+      companyLocation: "Montevideo, Montevideo, Uruguay",
+      companyLogo: LithiumSoftwareLogo,
+      startDate: "Feb 2021",
+      endDate: "May 2021",
+      description:
+        "Lithium Software is a development studio that helps technology companies and startups offering an extra-hand for their dev team with highly-skilled, trusted, nearshore developers and designers. My work focused on the maintenance and implementation of new features.",
+      technologies: [
+        "JavaScript (ES6+)",
+        "NodeJS",
+        "Express",
+        "Knex.js",
+        "Swagger",
+        "Jest",
+        "Mocha",
+        "PostgreSQL",
+        "Git",
+        "Azure DevOps",
+        "Jira",
+      ],
+      keyExperiences: [
+        "Teamwork",
+        "Advanced Git Workflows",
+        "RESTful API",
+        "Documentation",
+        "Testing",
+        "SCRUM",
+      ],
+    },
+    {
+      role: "Back End Developer",
       company: "Vacancy Rewards",
       companyLocation: "Cancún, Quintana Roo, México",
       companyLogo: VacancyRewardsLogo,
-      date: "Sep 2019 - Feb 2020 (6 mos)",
+      startDate: "Sep 2019",
+      endDate: "Feb 2020",
       description:
         "Vacancy Rewards is a leisure, travel, and tourism company based out of Cancún, Mexico. My work focused on the maintenance and implementation of new features.",
       technologies: [
@@ -149,7 +153,8 @@ const workExperiences = {
       company: "Freelance",
       companyLocation: "Camagüey, Camagüey, Cuba",
       companyLogo: FreelanceLogo,
-      date: "Oct 2018 - Present (2 yrs 7 mos)",
+      startDate: "Oct 2018",
+      endDate: "May 2021",
       description:
         "Design and implementation of web and mobile applications such as e-commerce sites and business management systems.",
       technologies: [
@@ -191,7 +196,8 @@ const workExperiences = {
       company: "University of Camagüey",
       companyLocation: "Camagüey, Camagüey, Cuba",
       companyLogo: UniversityCMG,
-      date: "Nov 2017 - Jul 2019 (1 yrs 9 mos)",
+      startDate: "Nov 2017",
+      endDate: "Jul 2019",
       description:
         "Design and implementation of web and mobile applications for the university and state companies of the locality.",
       technologies: [
