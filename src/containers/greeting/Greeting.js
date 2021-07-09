@@ -33,6 +33,7 @@ export default function Greeting() {
                   text="See my resume"
                   newTab={true}
                   href={greeting.resumeLink}
+                  rel="noopener noreferrer"
                 />
               </div>
             </div>
