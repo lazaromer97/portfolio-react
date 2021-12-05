@@ -52,13 +52,19 @@ export default function ExperienceCard(props) {
 
   return (
     <div className="card-experience">
-      <div className="title-experience">
-        <img
-          className="logo-experience"
-          src={props.companyLogo}
-          alt={props.company}
-        />
-        <div className="info-experience">
+      <div className="title-experience" style={{ display: "block" }}>
+        {props.companyLogo.map((logo, i) => {
+          return (
+            <img
+              key={i}
+              style={{ display: "inline-block", marginRight: "-8px" }}
+              className="logo-experience"
+              src={logo}
+              alt={props.company}
+            />
+          );
+        })}
+        <div className="info-experience" style={{ display: "block" }}>
           <h3 className="role-experience">{props.role}</h3>
           <h4 className="company-experience">{props.company}</h4>
           <em className="location-experience">{props.companyLocation}</em>
