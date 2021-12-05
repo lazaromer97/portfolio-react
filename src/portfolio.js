@@ -1,5 +1,8 @@
 import emoji from "react-easy-emoji";
 
+import BrainElectrophysiologyLab from "./assets/img/BrainElectrophysiologyLab.webp";
+import Tonic3 from "./assets/img/Tonic3.webp";
+import Wolox from "./assets/img/Wolox.webp";
 import LithiumSoftwareLogo from "./assets/img/LithiumSoftware.webp";
 import InteramplifyLogo from "./assets/img/Interamplify.webp";
 import SolutionDeveloppeurLogo from "./assets/img/SolutionDeveloppeur.webp";
@@ -36,9 +39,40 @@ const workExperiences = {
   experiences: [
     {
       role: "Full Stack Developer",
+      company: "Lithium Software",
+      companyLocation: "Montevideo, Montevideo, Uruguay",
+      companyLogo: [LithiumSoftwareLogo, Tonic3, BrainElectrophysiologyLab],
+      startDate: "Feb 2021",
+      endDate: "May 2021",
+      description:
+        "Lithium Software is a development studio that helps technology companies and startups offering an extra-hand for their dev team with highly-skilled, trusted, nearshore developers and designers. My work focused on the maintenance and implementation of new features.",
+      technologies: [
+        "JavaScript (ES6+)",
+        "NodeJS",
+        "Express",
+        "Knex.js",
+        "Swagger",
+        "Jest",
+        "Mocha",
+        "PostgreSQL",
+        "Git",
+        "Azure DevOps",
+        "Jira",
+      ],
+      keyExperiences: [
+        "Teamwork",
+        "Advanced Git Workflows",
+        "RESTful API",
+        "Documentation",
+        "Testing",
+        "SCRUM",
+      ],
+    },
+    {
+      role: "Full Stack Developer",
       company: "Interamplify",
       companyLocation: "Alhama de Murcia, Murcia, Spain",
-      companyLogo: InteramplifyLogo,
+      companyLogo: [InteramplifyLogo],
       startDate: "Jan 2021",
       endDate: "Present",
       description:
@@ -67,9 +101,9 @@ const workExperiences = {
       role: "Back End Developer",
       company: "Solution Développeur",
       companyLocation: "Paris, Île-de-France, France",
-      companyLogo: SolutionDeveloppeurLogo,
+      companyLogo: [SolutionDeveloppeurLogo],
       startDate: "Nov 2020",
-      endDate: "Present",
+      endDate: "Oct 2021",
       description:
         "Solution Développeur is a company specialized in new technologies that put a team of experts to work according to the business needs of its clients, offering technical assistance and advice on all aspects of their projects. My work focused on the maintenance and implementation of new features.",
       technologies: [
@@ -97,7 +131,7 @@ const workExperiences = {
       role: "Back End Developer",
       company: "Lithium Software",
       companyLocation: "Montevideo, Montevideo, Uruguay",
-      companyLogo: LithiumSoftwareLogo,
+      companyLogo: [LithiumSoftwareLogo, Wolox],
       startDate: "Feb 2021",
       endDate: "May 2021",
       description:
@@ -128,7 +162,7 @@ const workExperiences = {
       role: "Back End Developer",
       company: "Vacancy Rewards",
       companyLocation: "Cancún, Quintana Roo, México",
-      companyLogo: VacancyRewardsLogo,
+      companyLogo: [VacancyRewardsLogo],
       startDate: "Sep 2019",
       endDate: "Feb 2020",
       description:
@@ -152,7 +186,7 @@ const workExperiences = {
       role: "Full Stack Developer",
       company: "Freelance",
       companyLocation: "Camagüey, Camagüey, Cuba",
-      companyLogo: FreelanceLogo,
+      companyLogo: [FreelanceLogo],
       startDate: "Oct 2018",
       endDate: "May 2021",
       description:
@@ -195,7 +229,7 @@ const workExperiences = {
       role: "Software Developer",
       company: "University of Camagüey",
       companyLocation: "Camagüey, Camagüey, Cuba",
-      companyLogo: UniversityCMG,
+      companyLogo: [UniversityCMG],
       startDate: "Nov 2017",
       endDate: "Jul 2019",
       description:
